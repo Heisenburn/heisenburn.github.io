@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #202123;
+    font-family: 'Oswald', sans-serif;
+
+   
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+
+header{
+   
+    height: 100px;
+    
+    -webkit-box-shadow: rgba(39,44,49,.06) 8px 14px 38px, rgba(39,44,49,.03) 1px 3px 8px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+}
+
+
+nav ul{
+    list-style-type: none;
+    color: white;
+    
+    margin: 0;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px; 
+    background: #2B2D31;
+}
+
+header a{
+    width: inherit;
+    height: inherit;
+}
+header a img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+li{
+
+    font-size: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+section img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+section{ 
+    display: inline;
+}
+
+main{
+   
+    width: 80vw;
+    margin: 300px auto 0 auto;
+ 
+    background: white;
+    -webkit-box-shadow: rgba(39,44,49,.06) 8px 14px 38px, rgba(39,44,49,.03) 1px 3px 8px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    border-radius: 5px;
+}
+
+article{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.articleBigPhoto{
+
+    border-radius: 5px;
+    
+    width: 90vw;
+
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    margin: 50px auto 0 auto;
+
+    
+
+    -webkit-box-shadow: rgba(39,44,49,.06) 8px 14px 38px, rgba(39,44,49,.03) 1px 3px 8px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+}
+
+
+
+
+
+p{
+    margin: 0;
+
+}
+
+
+.fill {
+    
+    background-size: cover;
+    background-position: center;
+  
+    
+}
+
+
+.headingTitle{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+
+    margin: 100px auto 0 auto;
+    
+
+}
+
+.headingTitle p{
+    font-size: 50px;
+    color: white;
+}
+
+.headingTitle time{
+    font-size: 30px;
+    color: #16161A;
+}
+
+article{
+    
+    padding: 40px 50px;
+   
+   
+}
+
+
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+article img{
+    
+    max-width: 100%;
+    padding: 10px;
+}
+
+article p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+footer{
+    
+    background: #2B2D31;    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+footer ul{
+    padding: 0;
+    font-size: 30px;
+}
+
+footer li{
+    font-size: 20px;
+}
+
+footer #copyRights{
+    align-self: flex-end;
+}
+
+
+
+footer a:hover{
+    color: white;
+}
+
+
+
+/* 
+@media (min-width: 795px){
+    article{
+        display: flex;
+        flex-direction: row;
+        
+      }
+      
+   
+} */
