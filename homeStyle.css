@@ -1,12 +1,38 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
-
+/* open-sans-300 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/open-sans-v17-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+         url('./fonts/open-sans-v17-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/open-sans-v17-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/open-sans-v17-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/open-sans-v17-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/open-sans-v17-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
+  /* open-sans-regular - latin */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/open-sans-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('./fonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/open-sans-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/open-sans-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  
 body {
 
     background-color: #202123 !important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     margin: 0;
     background-image: url("image/asfalt-light.png");
-
+    font-weight: 300 !important;
     position: relative;
     top: 0;
     bottom: 0;
@@ -250,11 +276,12 @@ li a {
 .leftSide {
     padding-left: 50px;
     width: 50%;
+    margin: 200px 0;
 }
 
 .rightSide {
     padding-right: 50px;
-    margin-left: 50%;
+    margin: 200px 0 0 50%;
     width: 50%;
 }
 
@@ -304,7 +331,7 @@ li a {
 /* positioning articles' titles */
 
 .articleTitle {
-
+    font-weight: 400 !important;
     font-size: 1.3rem;
     text-shadow: .1em .1em rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -312,7 +339,9 @@ li a {
 }
 
 
-
+.content-1{
+    font-weight: 300 !important;
+}
 
  
 
@@ -505,7 +534,7 @@ footer a {
 
 
 .leftSide, .rightSide{
-    background: #00000078;
+    background: #000000e3;
     
     border-radius: 20px;
 }
