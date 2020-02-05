@@ -1,13 +1,8 @@
 
 
 //increasing height of inner vertical line
-
-$(document).ready(function(){
-  $("#empyreanSVG").load("header.html");
-   
-
-
- });
+ 
+if(screen.width >= 768){
  
  var height = oheight = $("#verticalLine").height();
   $(document).scroll(function () {
@@ -19,7 +14,7 @@ $(document).ready(function(){
   });
  
 
- 
+}
 
  
 
