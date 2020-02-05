@@ -528,6 +528,8 @@ footer a {
         font-size: 1rem;
     }
 
+   
+
     .leftSide,
     .rightSide {
         margin: 200px auto;
@@ -535,7 +537,9 @@ footer a {
 
 
     }
-
+    #firstArticle{
+        margin-top: 100px !important;
+    }
 
 
     #progressBar {
