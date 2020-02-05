@@ -3,29 +3,41 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
-    src: url('./fonts/open-sans-v17-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/open-sans-v17-latin-300.eot');
+    /* IE9 Compat Modes */
     src: local('Open Sans Light'), local('OpenSans-Light'),
-         url('./fonts/open-sans-v17-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/open-sans-v17-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-         url('./fonts/open-sans-v17-latin-300.woff') format('woff'), /* Modern Browsers */
-         url('./fonts/open-sans-v17-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/open-sans-v17-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
-  }
-  
-  /* open-sans-regular - latin */
-  @font-face {
+        url('./fonts/open-sans-v17-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/open-sans-v17-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/open-sans-v17-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/open-sans-v17-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/open-sans-v17-latin-300.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+/* open-sans-regular - latin */
+@font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/open-sans-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/open-sans-v17-latin-regular.eot');
+    /* IE9 Compat Modes */
     src: local('Open Sans Regular'), local('OpenSans-Regular'),
-         url('./fonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('./fonts/open-sans-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('./fonts/open-sans-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
-  }
-  
+        url('./fonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/open-sans-v17-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/open-sans-v17-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
 body {
 
     background-color: #202123 !important;
@@ -44,10 +56,10 @@ body {
 
 * {
     box-sizing: border-box;
-    
+
 }
 
- 
+
 
 p {
     margin: 0;
@@ -339,11 +351,11 @@ li a {
 }
 
 
-.content-1{
+.content-1 {
     font-weight: 300 !important;
 }
 
- 
+
 
 
 
@@ -435,7 +447,7 @@ footer {
 
 }
 
- 
+
 
 
 footer a {
@@ -445,7 +457,7 @@ footer a {
 }
 
 @media (min-width: 950px) {
-    #grid{
+    #grid {
 
         margin-top: 200px;
     }
@@ -463,17 +475,18 @@ footer a {
 
 @media (max-width: 950px) {
 
-   
 
-    .content-1{
+
+    .content-1 {
         font-size: 1rem;
     }
 
-    .leftSide, .rightSide{
+    .leftSide,
+    .rightSide {
         margin: 200px auto;
         padding: 0;
 
-      
+
     }
 
     nav {
@@ -481,7 +494,7 @@ footer a {
         display: none;
     }
 
-    #progressBar{
+    #progressBar {
         width: 0.2vw;
     }
 
@@ -495,8 +508,8 @@ footer a {
 
     }
 
- 
- 
+
+
 
     .end,
     .leftCircleArticle,
@@ -520,24 +533,20 @@ footer a {
         grid-column: 2;
         background: lightgrey;
         width: 1.3vw;
- 
+
     }
 
-    #empyreanSVG{
+    #empyreanSVG {
         transform: scale(3.5)
-    }   
+    }
 
-
-}
-
-@media (max-width: 550px) {
-
-
-.leftSide, .rightSide{
-    background: #000000e3;
-    
-    border-radius: 20px;
-}
- 
+    .articleTitle, .content-1{
+        background: #202123;
+        padding: 10px 0 !important;
+    }
+    .articleTitle {
+       
+        width: 80vw;
+    }
 
 }
