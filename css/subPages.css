@@ -317,10 +317,15 @@ li a {
 @media (max-width: 795px) {
 
 
+    img{
+        margin: 0 auto;
+
+        display: block;
+        float: none !important;
+    }
 
 
-
-
+ 
 
     .navbar {
 
