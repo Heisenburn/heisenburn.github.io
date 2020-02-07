@@ -306,6 +306,10 @@ li a {
 }
 
 
+a{
+     
+    color: blue;
+}
 
 img{
     margin: 0 auto;
@@ -314,6 +318,9 @@ img{
     float: none !important;
 }
 
+p{
+    margin: 20px 0; 
+}
 
 @media (min-width: 795px){
 
