@@ -305,6 +305,16 @@ li a {
 
 }
 
+
+
+img{
+    margin: 0 auto;
+
+    display: block;
+    float: none !important;
+}
+
+
 @media (min-width: 795px){
 
 
