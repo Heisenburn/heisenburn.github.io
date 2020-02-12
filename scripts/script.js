@@ -23,20 +23,7 @@ if(screen.width >= 768){
 
 });
 
-function expandNavbar() {
-
-  const nav = document.querySelector("nav");
-
-  if (nav.style.display == "none") {
-    nav.style.display = "block";
-  } else {
-    nav.style.display = "none";
-  }
-
-}
-
-
-
+ 
  
 
  
