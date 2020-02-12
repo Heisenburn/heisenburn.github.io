@@ -2,7 +2,7 @@
 $( document ).ready(function() {
    
 
-
+  window.scrollTo(0, -100);
 
 
 //increasing height of inner vertical line
