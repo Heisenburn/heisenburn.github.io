@@ -60,7 +60,7 @@ p {
 
 #bigScreenNav ul {
     display: grid;
-    grid-template-columns: 2fr 2.5fr 1fr;
+    grid-template-columns: 2fr 2.5fr 1fr 1fr;
     margin-top: 40px;
     position: absolute;
     top: 40px;
