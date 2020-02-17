@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.frusciante.pl [NC]
+RewriteRule ^(.*)$ https://frusciante.pl/$1 [L,R=301]
