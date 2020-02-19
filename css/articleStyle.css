@@ -46,46 +46,7 @@ a {
 
 
 
-/* header {
-
-    height: 100px;
-
-    -webkit-box-shadow: rgba(39, 44, 49, .06) 8px 14px 38px, rgba(39, 44, 49, .03) 1px 3px 8px;
-    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
-} */
-/* 
-nav {
-    width: 100%;
-}
-
-nav ul {
-    list-style-type: none;
-    color: white;
-
-    margin: 0;
-
-    display: flex;
-    justify-content: space-evenly;
-
-    align-items: center;
-}
- */
-
-
-/* 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    background: #2B2D31;
-}
-
-header a {
-    width: inherit;
-    height: inherit;
-} */
-
+ 
 
 code img {
     padding: 0.8%;
