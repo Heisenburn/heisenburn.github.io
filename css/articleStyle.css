@@ -176,6 +176,8 @@ article {
 
     border-radius: 5px;
 
+      filter: blur(3px);
+  -webkit-filter: blur(3px);
     width: 90vw;
 
     height: 400px;
@@ -193,7 +195,10 @@ article {
 }
 
 
-
+iframe{
+    margin: 0 auto;
+    display: block;
+}
 
 
 p {
