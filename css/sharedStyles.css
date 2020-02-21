@@ -41,3 +41,12 @@
     opacity: 1;
     top: 5px;
 }
+
+.dropdown-item {
+    color: black !important;
+    text-shadow: none !important;
+}
+
+.dropdown-toggle{
+    padding: 0;
+}

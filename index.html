@@ -61,47 +61,37 @@
     <header>
 
 
-        <nav class="navbar navbar-expand-lg">
+        <nav id="myNavigation" class="navbar navbar-expand-lg">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">&#9776</span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://frusciante.pl">Home</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://frusciante.pl/biografia">Biografia</a> </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dyskografia</a>
-                    </li>
-
-                    <li class="nav-item"><a href="https://pl-pl.facebook.com/FrusciantePL">Kontakt</a> 
- 
-                        <li class="nav-item" ><a href="https://www.facebook.com/groups/FrusciantePL/">Grupa</a> </li>
-
+                    <div id="mainNavContainer">
+                        <li><a href="https://frusciante.pl">Home</a></li>
+                        <li><a href="https://frusciante.pl/biografia">Biografia</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dyskografia</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="https://frusciante.pl/dyskografia/albumy-studyjne">Albumy studyjne</a>
+                              <a class="dropdown-item" href="https://frusciante.pl/dyskografia/z-red-hot-chili-peppers">Z Red Hot Chili Peppers</a>
+                              <a class="dropdown-item" href="https://frusciante.pl/dyskografia/ep">EP</a>
+                              <a class="dropdown-item" href="https://frusciante.pl/dyskografia/z-ataxia">Z Ataxia</a>
+                              <a class="dropdown-item" href="https://frusciante.pl/dyskografia/wspolpraca-z-innymi-artystami">Współpraca z innymi artystami</a>
+                              <a class="dropdown-item" href="https://frusciante.pl/dyskografia/albumy-internetowe">Albumy internetowe</a>
+                       
+                          </li>
+                    </div>
+                    <div id="transparentBlock"></div>
+                    <li id="contact"> <a href="https://pl-pl.facebook.com/FrusciantePL">Kontakt</a> </li>
+                    <li id="contact"> <a href="https://www.facebook.com/groups/FrusciantePL/">Grupa</a> </li>
                     
                     
                 </ul>
             </div>
         </nav>
-
-        <nav id="bigScreenNav">
-
-            <ul>
-                <div id="mainNavContainer">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="biografia.html">Biografia</a></li>
-                    <li><a href="#3">Dyskografia</a></li>
-                </div>
-                <div id="transparentBlock"></div>
-                <li id="contact"> <a href="https://pl-pl.facebook.com/FrusciantePL">Kontakt</a> </li>
-                <li id="contact"> <a href="https://www.facebook.com/groups/FrusciantePL/">Grupa</a> </li>
-            </ul>
-
-
-
-        </nav>
+ 
 
 
     </header>

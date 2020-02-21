@@ -58,20 +58,6 @@ p {
 /* styling navigation */
 
 
-#bigScreenNav ul {
-    display: grid;
-    grid-template-columns: 2fr 2.5fr 1fr 1fr;
-    margin-top: 40px;
-    position: absolute;
-    top: 40px;
-    padding: 0;
-
-    width: 100%;
-
-
-
-
-}
 
 
 #mainNavContainer,
@@ -460,15 +446,37 @@ footer a {
 }
 
 
-.navbar{
-    display: none;
-}
+ 
 
 @media (min-width: 950px) {
     #grid {
 
         margin-top: 200px;
     }
+
+          
+#myNavigation{
+    position: absolute;
+ 
+    margin-top: 15vh;
+    left: 0;
+    right: 0;
+    padding: 0 !important;
+}
+
+#myNavigation ul {
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1fr 1fr;
+    
+    
+    padding: 0 !important;
+  
+    width: 100%;
+
+
+
+
+}
 
 }
 
@@ -478,13 +486,22 @@ footer a {
         font-size: 13px;
     }
 
+    
+
 }
 
 
 @media (max-width: 950px) {
 
+
+    #mainNavContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+
   
-    #bigScreenNav, #empyreanSVG{
+     #empyreanSVG{
         display: none;
     }
 

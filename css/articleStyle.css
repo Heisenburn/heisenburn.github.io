@@ -365,7 +365,7 @@ p{
      
         position: fixed;
         z-index: 999;
- 
+        height: 50px;
         top: 0;
         background: #808080e6 ;
         width: 100vw;
