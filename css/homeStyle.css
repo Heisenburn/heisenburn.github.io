@@ -454,6 +454,7 @@ footer a {
         margin-top: 200px;
     }
 
+   
           
 #myNavigation{
     position: absolute;
@@ -466,7 +467,7 @@ footer a {
 
 #myNavigation ul {
     display: grid;
-    grid-template-columns: 2fr 2.5fr 1fr 1fr;
+    grid-template-columns: 3fr 2.5fr 1fr 1fr;
     
     
     padding: 0 !important;
