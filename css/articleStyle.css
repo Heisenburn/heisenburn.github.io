@@ -38,6 +38,14 @@ body {
 
 }
 
+
+/* #myNavigation{
+    background-image: url("../svg/empyreanArticle.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+} */
+
 a {
     text-decoration: none;
     background-color: transparent;
